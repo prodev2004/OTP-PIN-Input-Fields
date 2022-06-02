@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 15);
+}
+
+
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+
+.container {
+    display: flex;
+}
+.num {
+    color: #fff;
+    background-color: transparent;
+    width: 100px;
+    text-align: center;
+    outline: none;
+    padding: 2rem 1rem;
+    margin: 0 1rem;
+    font-size: 3rem;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: .5rem;
+    color: rgba(0, 255, 0, .5);
+}
+.space {
+    width: 3rem;
+}
+.num:focus,
+.num:valid {
+    box-shadow: 0 0 .5rem rgba(0, 255, 0, .5),
+                inset 0 0 .5rem rgba(0, 255, 0, .5);
+    border-color: rgba(0, 255, 0, .5);
+}
+
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUBSCRIBE ==> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
